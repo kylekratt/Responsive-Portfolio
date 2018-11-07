@@ -1,3 +1,7 @@
+html, body {
+    min-height: 100%;
+    background-color: #666666;
+}
 header{
     border-bottom: 2px solid #cccccc;
     background: #ffffff;
@@ -58,7 +62,6 @@ section{
     background-color: #ffffff;
     overflow: hidden;
     margin-bottom: 100px;
-    padding-right: 12px;
     padding-bottom: 40px;
 }
 
@@ -74,9 +77,7 @@ h2{
     border-bottom: 2px solid #cccccc;
 }
 .self-picture{
-    margin-left: 28px;
-    margin-right: 28px;
-    margin-bottom: 12px;
+    margin: 40px 28px 12px 28px;
     float:left;
 }
 .bio{
@@ -140,7 +141,6 @@ button{
     margin-left: 28px;
     margin-top:40px;
     float: left;
-    max-width: 400px;
 }
 .textbar{
     position: absolute;
@@ -159,9 +159,9 @@ button{
     height: auto;
 }
 .portsection{
-    max-width:768px;
+    max-width:684px;
     margin: auto;
-
+    margin-bottom: 100px;
 }
 @media screen and (max-width: 980px) {
 .header{
@@ -171,7 +171,7 @@ section{
     width:768px;
 }
 .portsection{
-    max-width:768px;
+    max-width:684px;
     margin: auto;
 }
 }
@@ -184,11 +184,18 @@ section{
 
 }
 .portsection{
-    width:100%;
+    width:95%;
 }
 .container{
-    margin-left: 15px;
+    margin-left: 2.5%;
+    width: 46%;
     margin-right: 0px;
+}
+}
+@media screen and (max-width: 684px) {
+.container{
+    width:90%;
+    margin-left:5%;
 }
 }
 @media screen and (max-width: 640px) {
@@ -215,13 +222,9 @@ header{
     text-align:center; 
     margin:auto;
     margin-top:15px;
-    width:30%;
-}
-.link-about{
-    margin-left:5%;
-}
-.link-contact{
-    margin-right:5%;
+    
+    padding: 0px;
+    width:33%;
 }
 section{
     width:95%;
@@ -231,18 +234,20 @@ section{
     height:auto;
     text-align: center;
     width:90%;
+    margin-left: 5%;
     margin-top: 24px;
 }
 .bio{
     margin-top: 12px;
+    margin-right: 5%;
 }
 .container{
-    margin:auto;
-    float: none;
+    margin-left: 4%;
     margin-top: 12px;
     height:auto;
+    width:92%;
 }
 .portsection{
-    width: 95%;
+    width: 100%;
 }
 }
