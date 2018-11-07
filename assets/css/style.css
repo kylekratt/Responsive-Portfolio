@@ -109,9 +109,9 @@ h3{
     font-family: "Arial";
 }
 input{
-    margin-left:28px;
-    margin-top:12px;
-    margin-right:12px;
+    margin-left:5%;
+    margin-top: 28px;
+    margin-right:5%;
     width: 90%;
     box-sizing: border-box;
     padding: 12px;
@@ -121,8 +121,8 @@ textarea{
     resize:none;
     height: 280px;
     width:90%;
-    margin-left: 28px;
-    margin-right: 12px;
+    margin-left: 5%;
+    margin-right: 5%;
     box-sizing: border-box;
     margin-top:12px;
     padding: 12px;
