@@ -159,9 +159,12 @@ button{
     
 }
 .rpg{
-    padding-top: 15.56px;
-    padding-bottom: 15.56px;
+    padding-bottom: 31px;
     background: #0a0b10;
+}
+.trivia{
+    padding-bottom: 31px;
+    background: rgb(206,172,65);
 }
 .portsection{
     max-width:768px;
