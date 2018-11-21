@@ -166,6 +166,10 @@ button{
     padding-bottom: 31px;
     background: rgb(206,172,65);
 }
+.catgif{
+    padding-bottom: 32px;
+    background: lightgrey;
+}
 .portsection{
     max-width:768px;
     margin: auto;
