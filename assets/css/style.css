@@ -4,6 +4,12 @@ header{
     height: 72px;
     clear:both;
 }
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
 .header{
     position: relative;
     height: 72px;
@@ -16,16 +22,16 @@ header{
     left:0px;
     top:0px;
     padding:20px;
-    background:#4aaaa5;
+    background:grey;
     margin: 0px;
     font-family: "Georgia";
     font-size: 2em;
     font-weight: bold;
-    color:#ffffff;
+    color:white;
 }
 .link{
     font-family: "Georgia";
-    color: #4aaaa5;
+    color: grey;
     margin-top:28px;
     text-decoration: none;
 }
@@ -46,8 +52,10 @@ header{
     padding-right: 25px;
 }
 .background{
-    background-image: url('../images/gravel.png');
+    min-height: 100%;
+    background-image: url('../images/diagonal-squares.png');
     overflow: hidden;
+    margin-bottom: -64px;
 }
 section{
     position: relative;
@@ -81,17 +89,16 @@ h2{
 }
 .bio{
     margin-top: 40px;
-    line-height: 1.5em;
+    line-height: 1.25em;
+    font-size: 48px;
     margin-left: 28px;
     font-style: "Arial";
     color: #777777;
 }
 footer{
-    position: relative;
     text-align: center;
     padding-top: 40px;
-    background-color:#666666;
-    border-top: 5px solid #cccccc;
+    background-color: grey;
     margin:auto;
     width:100%;
     color:#ffffff;
@@ -137,8 +144,7 @@ button{
 }
 .container{
     position: relative;
-    margin-top:40px;
-    float: left;
+    margin-bottom:40px;
     max-width: 300px;
     height: auto;
 }
@@ -156,7 +162,6 @@ button{
 }
 .portimage{
     width:100%;
-    
 }
 .rpg{
     padding-bottom: 31px;
@@ -171,14 +176,27 @@ button{
     background: lightgrey;
 }
 .rps{
-    padding-bottom: 64px;
+    padding-bottom: 56px;
     background: black;
 }
-.portsection{
-    max-width:768px;
-    margin: auto;
+.ff{
+    padding-bottom: 16.44px;
+    background: rgb(56, 56, 56);
+}
+.icon{
+    position: absolute;
+    height: 32px;
+    width: auto;
+    left: 0px;
+    bottom: 0px;
+    margin-bottom: -32px;
+}
+#icons{
+    margin: 28px;
+    margin-bottom: 0px;
 }
 #portbox{
+    padding-top: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -202,6 +220,9 @@ section{
 section{
     width:95%;
 
+}
+.background{
+    margin-bottom: 0px;
 }
 .portsection{
     width:100%;
