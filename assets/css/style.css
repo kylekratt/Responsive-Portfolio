@@ -183,6 +183,10 @@ button{
     padding-bottom: 16.44px;
     background: rgb(56, 56, 56);
 }
+.gitlink{
+    padding-bottom: 75px;
+    background: lightgrey;
+}
 .icon{
     position: absolute;
     height: 32px;
