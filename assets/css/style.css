@@ -184,8 +184,16 @@ button{
     background: rgb(56, 56, 56);
 }
 .gitlink{
-    padding-bottom: 75px;
-    background: lightgrey;
+    padding-top: 7px;
+    padding-bottom: 70px;
+    outline: solid 1px black;
+   
+}
+.herokulink{
+    padding-top: 35px;
+    padding-bottom: 85px;
+    outline: solid 1px black;
+   
 }
 .icon{
     position: absolute;
