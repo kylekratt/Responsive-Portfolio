@@ -195,6 +195,12 @@ button{
     outline: solid 1px black;
    
 }
+.burger{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+    outline: solid 1px black;
+}
 .icon{
     position: absolute;
     height: 32px;
